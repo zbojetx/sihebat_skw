@@ -97,6 +97,8 @@ export default class ReportList extends Component {
 				timeout: 35000
 			}).then((response) => {
 				if (response.data.header.message == 'Success') {
+					console.log("LAPORAN")
+					console.log(response.data.data.data)
 					this.setState({
 						reportData: response.data.data.data
 					})
@@ -199,7 +201,7 @@ export default class ReportList extends Component {
 											<View style={{ alignItems: 'flex-end' }}>
 												{/* <Image style={{ height: 40, width: 40 }} resizeMode='cover' source={require('../../components/images/iconCategoryLapor.png')}></Image> */}
 												<Text style={{ fontSize: 12, color: Colors.GREY, fontFamily: Fonts.LIGHT }}>Kategori :</Text>
-												<Text style={{ fontSize: 14, color: Colors.BLACK, fontFamily: Fonts.REGULAR, marginTop: 2 }}>{ items.related_categories.category.name }</Text>
+												<Text style={{ fontSize: 14, color: Colors.BLACK, fontFamily: Fonts.REGULAR, marginTop: 2 }}>{ items.related_categories.category }</Text>
 											</View>
 										</View>
 										{
