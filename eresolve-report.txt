@@ -1,0 +1,136 @@
+# npm resolution error report
+
+2021-04-19T23:27:04.679Z
+
+While resolving: singkawang@0.0.1
+Found: react@16.9.0
+node_modules/react
+  react@"16.9.0" from the root project
+  peer react@"*" from react-native-safe-area-view@1.1.1
+  node_modules/react-native-safe-area-view
+    react-native-safe-area-view@"^1.1.1" from the root project
+
+Could not resolve dependency:
+peer react@"17.0.1" from react-native@0.64.0
+node_modules/react-native
+  react-native@"^0.64.0" from the root project
+  peer react-native@"*" from react-native-safe-area-view@1.1.1
+  node_modules/react-native-safe-area-view
+    react-native-safe-area-view@"^1.1.1" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "react",
+    "version": "16.9.0",
+    "whileInstalling": {
+      "name": "singkawang",
+      "version": "0.0.1",
+      "path": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+    },
+    "location": "node_modules/react",
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "react",
+        "spec": "16.9.0",
+        "from": {
+          "location": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "*",
+        "from": {
+          "name": "react-native-safe-area-view",
+          "version": "1.1.1",
+          "whileInstalling": {
+            "name": "singkawang",
+            "version": "0.0.1",
+            "path": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+          },
+          "location": "node_modules/react-native-safe-area-view",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-native-safe-area-view",
+              "spec": "^1.1.1",
+              "from": {
+                "location": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "currentEdge": {
+    "type": "prod",
+    "name": "react",
+    "spec": "16.9.0",
+    "from": {
+      "location": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+    }
+  },
+  "edge": {
+    "type": "peer",
+    "name": "react",
+    "spec": "17.0.1",
+    "error": "INVALID",
+    "from": {
+      "name": "react-native",
+      "version": "0.64.0",
+      "whileInstalling": {
+        "name": "singkawang",
+        "version": "0.0.1",
+        "path": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+      },
+      "location": "node_modules/react-native",
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "react-native",
+          "spec": "^0.64.0",
+          "from": {
+            "location": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+          }
+        },
+        {
+          "type": "peer",
+          "name": "react-native",
+          "spec": "*",
+          "from": {
+            "name": "react-native-safe-area-view",
+            "version": "1.1.1",
+            "whileInstalling": {
+              "name": "singkawang",
+              "version": "0.0.1",
+              "path": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+            },
+            "location": "node_modules/react-native-safe-area-view",
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-native-safe-area-view",
+                "spec": "^1.1.1",
+                "from": {
+                  "location": "F:\\Kominfo\\SIHEBAT\\pabriqkitha-kitha-android-ba11f1f49890"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "peerConflict": null,
+  "strictPeerDeps": false,
+  "force": false
+}

@@ -87,11 +87,11 @@ export default class footer extends Component {
 					}
 					{
 						activeIndex === 3 ?
-							<Button onPress={() => Linking.openURL("https://play.google.com/store/apps/details?id=com.mm.android.direct.gdmssphoneLite")}>
+							<Button onPress={() => Linking.openURL("https://singkawangkota.go.id")}>
 								<Image style={ styles.imageFooter } resizeMode='cover' source={require('../components/images/footer/cctvActive.png')}></Image>
 							</Button>
 						:
-							<Button onPress={() => Linking.openURL("https://play.google.com/store/apps/details?id=com.mm.android.direct.gdmssphoneLite")}>
+							<Button onPress={() => Linking.openURL("https://singkawangkota.go.id")}>
 								<Image style={ styles.imageFooter } resizeMode='cover' source={require('../components/images/footer/cctv.png')}></Image>
 							</Button>
 					}

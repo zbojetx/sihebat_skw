@@ -1,0 +1,193 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\Zul Amri DN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'audit',
+0 verbose cli   'fix'
+0 verbose cli ]
+1 info using npm@7.9.0
+2 info using node@v14.15.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:F:\Kominfo\SIHEBAT\pabriqkitha-kitha-android-ba11f1f49890\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\Zul Amri DN\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\Zul Amri DN\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 8ms
+18 timing npm:load:configload Completed in 8ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing npm:load:setupLog Completed in 1ms
+21 timing npm:load:cleanupLog Completed in 2ms
+22 timing npm:load:configScope Completed in 0ms
+23 timing npm:load:projectScope Completed in 0ms
+24 timing npm:load Completed in 15ms
+25 timing config:load:flatten Completed in 2ms
+26 timing arborist:ctor Completed in 1ms
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1330ms
+28 timing auditReport:getReport Completed in 1332ms
+29 timing metavuln:cache:get:security-advisory:node-fetch:652S+/ar5yBvyi9sMNv+QgcE2qii5wVJ2M9hiyId6KkhVK7a776VAIL/mf6l0wkUESgoSKriuMsokTxRs6dH6g== Completed in 17ms
+30 timing metavuln:cache:get:security-advisory:minimist:8MDgP3O3yM8t8dcQHSMUtmH4UKJrKhWmsmV44L4YChIzoahEo+G6j24b+4BPItZck5h5zQFPFD39kOC/789lfA== Completed in 18ms
+31 timing metavuln:cache:get:security-advisory:y18n:Ian6RpYkXrX0NfM2J0SmFvptoylamT9u5YRRPQGHHwNO82iyzBwLe1GIDh5UchRnFuscTbjMKTbo7XT9qqPckA== Completed in 16ms
+32 timing metavuln:cache:get:security-advisory:xmldom:h7Le91w3UaDy6yv/f6Ow3iygNizqgFrfUZVVeBS6FLPH0qT3mePlkZs21mBwTBRFbR8uT28/TzsiP5ajsX/CQA== Completed in 16ms
+33 http fetch GET 304 https://registry.npmjs.org/minimist 249ms (from cache)
+34 timing metavuln:packument:minimist Completed in 250ms
+35 timing metavuln:load:security-advisory:minimist:1179 Completed in 1ms
+36 timing metavuln:calculate:security-advisory:minimist:1179 Completed in 252ms
+37 http fetch GET 304 https://registry.npmjs.org/y18n 314ms (from cache)
+38 timing metavuln:packument:y18n Completed in 315ms
+39 timing metavuln:load:security-advisory:y18n:1654 Completed in 0ms
+40 timing metavuln:calculate:security-advisory:y18n:1654 Completed in 315ms
+41 http fetch GET 304 https://registry.npmjs.org/xmldom 325ms (from cache)
+42 timing metavuln:packument:xmldom Completed in 326ms
+43 timing metavuln:load:security-advisory:xmldom:1650 Completed in 0ms
+44 timing metavuln:calculate:security-advisory:xmldom:1650 Completed in 326ms
+45 http fetch GET 304 https://registry.npmjs.org/node-fetch 338ms (from cache)
+46 timing metavuln:packument:node-fetch Completed in 340ms
+47 timing metavuln:load:security-advisory:node-fetch:1556 Completed in 1ms
+48 timing metavuln:calculate:security-advisory:node-fetch:1556 Completed in 341ms
+49 timing metavuln:cache:get:security-advisory:opencollective:qBNTBT3RWpj1s9jUl5C6FVBpjhhl4UqFHc7gLIn7l+6VjBGmRYicRmjbrgct/ZZ+sN49qb1cfKeJbahJUYjaEQ== Completed in 4ms
+50 http fetch GET 304 https://registry.npmjs.org/opencollective 42ms (from cache)
+51 timing metavuln:packument:opencollective Completed in 43ms
+52 timing metavuln:load:security-advisory:opencollective:8MDgP3O3yM8t8dcQHSMUtmH4UKJrKhWmsmV44L4YChIzoahEo+G6j24b+4BPItZck5h5zQFPFD39kOC/789lfA== Completed in 1ms
+53 timing metavuln:calculate:security-advisory:opencollective:8MDgP3O3yM8t8dcQHSMUtmH4UKJrKhWmsmV44L4YChIzoahEo+G6j24b+4BPItZck5h5zQFPFD39kOC/789lfA== Completed in 44ms
+54 timing metavuln:cache:get:security-advisory:isomorphic-fetch:vgIQVx9w/4goo2u1AxC0GZz7M55dEW+9iRlKJnfYbomdIAeLIgc/27Ykn01DSUuBcJ3bPj5PRQplYW1b7J60OA== Completed in 4ms
+55 timing metavuln:cache:get:security-advisory:opencollective:2qEvy44mMCcMcCGNLx08yC3j8nGXoONNs4d1mKM1YOf4OivmydrTqpWdiQUYISnBimNBOtGhFaTGwY0d4/SXVQ== Completed in 3ms
+56 timing metavuln:load:security-advisory:opencollective:652S+/ar5yBvyi9sMNv+QgcE2qii5wVJ2M9hiyId6KkhVK7a776VAIL/mf6l0wkUESgoSKriuMsokTxRs6dH6g== Completed in 0ms
+57 timing metavuln:calculate:security-advisory:opencollective:652S+/ar5yBvyi9sMNv+QgcE2qii5wVJ2M9hiyId6KkhVK7a776VAIL/mf6l0wkUESgoSKriuMsokTxRs6dH6g== Completed in 3ms
+58 http fetch GET 304 https://registry.npmjs.org/isomorphic-fetch 1223ms (from cache)
+59 timing metavuln:packument:isomorphic-fetch Completed in 1223ms
+60 timing metavuln:load:security-advisory:isomorphic-fetch:652S+/ar5yBvyi9sMNv+QgcE2qii5wVJ2M9hiyId6KkhVK7a776VAIL/mf6l0wkUESgoSKriuMsokTxRs6dH6g== Completed in 1ms
+61 timing metavuln:calculate:security-advisory:isomorphic-fetch:652S+/ar5yBvyi9sMNv+QgcE2qii5wVJ2M9hiyId6KkhVK7a776VAIL/mf6l0wkUESgoSKriuMsokTxRs6dH6g== Completed in 1224ms
+62 timing metavuln:cache:get:security-advisory:plist:+rNyuSHVgvI5fbxhzRkJ0hcKTpGdJM9NKG0xwmmO6Lp1DfGfqjGE+P+DJZyiUOMJUrxIT3X/OfneAkdFqZeX4A== Completed in 3ms
+63 http fetch GET 304 https://registry.npmjs.org/plist 629ms (from cache)
+64 timing metavuln:packument:plist Completed in 630ms
+65 timing metavuln:load:security-advisory:plist:h7Le91w3UaDy6yv/f6Ow3iygNizqgFrfUZVVeBS6FLPH0qT3mePlkZs21mBwTBRFbR8uT28/TzsiP5ajsX/CQA== Completed in 0ms
+66 timing metavuln:calculate:security-advisory:plist:h7Le91w3UaDy6yv/f6Ow3iygNizqgFrfUZVVeBS6FLPH0qT3mePlkZs21mBwTBRFbR8uT28/TzsiP5ajsX/CQA== Completed in 630ms
+67 timing metavuln:cache:get:security-advisory:yargs:R/6feHD3xFXG53yNEkBqvytp0gJ+mxyobPp+C8JyQ4Q7QSXJo2oYIn3cL4mAUFqhOheYH/cIiAMAWSsaTgoLgQ== Completed in 3ms
+68 http fetch GET 304 https://registry.npmjs.org/yargs 603ms (from cache)
+69 timing metavuln:packument:yargs Completed in 605ms
+70 timing metavuln:load:security-advisory:yargs:Ian6RpYkXrX0NfM2J0SmFvptoylamT9u5YRRPQGHHwNO82iyzBwLe1GIDh5UchRnFuscTbjMKTbo7XT9qqPckA== Completed in 1ms
+71 timing metavuln:calculate:security-advisory:yargs:Ian6RpYkXrX0NfM2J0SmFvptoylamT9u5YRRPQGHHwNO82iyzBwLe1GIDh5UchRnFuscTbjMKTbo7XT9qqPckA== Completed in 606ms
+72 timing metavuln:cache:get:security-advisory:react-native-router-flux:WBW7/B6HQdEjO7SoFLQKEJNSj79dpSZak42Q80ic3kujG+ef0/g546M6I9nwMhyuOPnuRo9KSiSJI49OieVDZQ== Completed in 3ms
+73 http fetch GET 304 https://registry.npmjs.org/react-native-router-flux 2452ms (from cache)
+74 timing metavuln:packument:react-native-router-flux Completed in 2455ms
+75 timing metavuln:load:security-advisory:react-native-router-flux:qBNTBT3RWpj1s9jUl5C6FVBpjhhl4UqFHc7gLIn7l+6VjBGmRYicRmjbrgct/ZZ+sN49qb1cfKeJbahJUYjaEQ== Completed in 2ms
+76 timing metavuln:calculate:security-advisory:react-native-router-flux:qBNTBT3RWpj1s9jUl5C6FVBpjhhl4UqFHc7gLIn7l+6VjBGmRYicRmjbrgct/ZZ+sN49qb1cfKeJbahJUYjaEQ== Completed in 2457ms
+77 timing metavuln:cache:get:security-advisory:fbjs:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 3ms
+78 http fetch GET 304 https://registry.npmjs.org/fbjs 47ms (from cache)
+79 timing metavuln:packument:fbjs Completed in 48ms
+80 timing metavuln:load:security-advisory:fbjs:vgIQVx9w/4goo2u1AxC0GZz7M55dEW+9iRlKJnfYbomdIAeLIgc/27Ykn01DSUuBcJ3bPj5PRQplYW1b7J60OA== Completed in 0ms
+81 timing metavuln:calculate:security-advisory:fbjs:vgIQVx9w/4goo2u1AxC0GZz7M55dEW+9iRlKJnfYbomdIAeLIgc/27Ykn01DSUuBcJ3bPj5PRQplYW1b7J60OA== Completed in 49ms
+82 timing metavuln:cache:get:security-advisory:@react-native-community/cli-platform-ios:Pbd0oz6H2gdTjiQBKzRUYx7QREL9dyrewLBY/DUo0DjMRUL6Zhe4xVXhCF4svnMFNQMdh9KOvurJdcNlfaMu/Q== Completed in 5ms
+83 timing metavuln:cache:get:security-advisory:simple-plist:QLEHeTQhP4DMCs/cFoBIxIaJOLi0jPIfWballVv+kmjjSOlpCn2dBWpRkejtxMrU10VciCuTWdQQjbbVi5ofFA== Completed in 4ms
+84 http fetch GET 304 https://registry.npmjs.org/simple-plist 50ms (from cache)
+85 timing metavuln:packument:simple-plist Completed in 51ms
+86 timing metavuln:load:security-advisory:simple-plist:+rNyuSHVgvI5fbxhzRkJ0hcKTpGdJM9NKG0xwmmO6Lp1DfGfqjGE+P+DJZyiUOMJUrxIT3X/OfneAkdFqZeX4A== Completed in 0ms
+87 timing metavuln:calculate:security-advisory:simple-plist:+rNyuSHVgvI5fbxhzRkJ0hcKTpGdJM9NKG0xwmmO6Lp1DfGfqjGE+P+DJZyiUOMJUrxIT3X/OfneAkdFqZeX4A== Completed in 51ms
+88 http fetch GET 304 https://registry.npmjs.org/@react-native-community%2fcli-platform-ios 61ms (from cache)
+89 timing metavuln:packument:@react-native-community/cli-platform-ios Completed in 62ms
+90 timing metavuln:load:security-advisory:@react-native-community/cli-platform-ios:+rNyuSHVgvI5fbxhzRkJ0hcKTpGdJM9NKG0xwmmO6Lp1DfGfqjGE+P+DJZyiUOMJUrxIT3X/OfneAkdFqZeX4A== Completed in 1ms
+91 timing metavuln:calculate:security-advisory:@react-native-community/cli-platform-ios:+rNyuSHVgvI5fbxhzRkJ0hcKTpGdJM9NKG0xwmmO6Lp1DfGfqjGE+P+DJZyiUOMJUrxIT3X/OfneAkdFqZeX4A== Completed in 63ms
+92 timing metavuln:cache:get:security-advisory:react-native-legacy-components:s34CkW6Mi6OXQYCNh40HGX2dwWiegXEqcC8On86IsxlyjIJc9lkN8JHMCcoFtkbj69qyRkBH010ucr99qhpIIg== Completed in 12ms
+93 timing metavuln:cache:get:security-advisory:metro:r9KRu3lhoBL27eGMogU/tmY1X2JNbY8R/nQqL7oB/BzEuDOZVyI0Uj5fsgw5s9xeVG0MiC6FTdxO77CAdI9RkA== Completed in 11ms
+94 timing metavuln:cache:get:security-advisory:create-react-class:lO3OcuKi8Hpc2AG292D9Omn0Dl+EpCcYzD+WKbqe5QlOTVDHlTR+/q1Oxj0/MYQtrSlBuhzmaL6JyeSqca7ULw== Completed in 13ms
+95 timing metavuln:cache:get:security-advisory:react-native:v1ege2SlwPCxWCdKJ4pxEsIZ8ioyNCo4QjhEFV64ewqFk1tQF0yGSxHu93Nd+rwxVN6hPopEc72UqPkCILIiGQ== Completed in 11ms
+96 timing metavuln:cache:get:security-advisory:react-native-reanimated:iJqCl4x0kpOWt070Q2lWDyELeW/vcc1cbdUx7/Im2FgCgMudzmj92glNRZqD79NZuX1nEVQEbtKfLQW8cH73ng== Completed in 11ms
+97 http fetch GET 304 https://registry.npmjs.org/create-react-class 49ms (from cache)
+98 timing metavuln:packument:create-react-class Completed in 49ms
+99 timing metavuln:load:security-advisory:create-react-class:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 1ms
+100 timing metavuln:calculate:security-advisory:create-react-class:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 51ms
+101 http fetch GET 304 https://registry.npmjs.org/react-native-reanimated 56ms (from cache)
+102 timing metavuln:packument:react-native-reanimated Completed in 57ms
+103 timing metavuln:load:security-advisory:react-native-reanimated:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 0ms
+104 timing metavuln:calculate:security-advisory:react-native-reanimated:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 57ms
+105 http fetch GET 304 https://registry.npmjs.org/react-native 61ms (from cache)
+106 timing metavuln:packument:react-native Completed in 75ms
+107 timing metavuln:load:security-advisory:react-native:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 7ms
+108 timing metavuln:calculate:security-advisory:react-native:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 82ms
+109 http fetch GET 304 https://registry.npmjs.org/react-native-legacy-components 90ms (from cache)
+110 timing metavuln:packument:react-native-legacy-components Completed in 90ms
+111 timing metavuln:load:security-advisory:react-native-legacy-components:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 0ms
+112 timing metavuln:calculate:security-advisory:react-native-legacy-components:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 90ms
+113 http fetch GET 304 https://registry.npmjs.org/metro 96ms (from cache)
+114 timing metavuln:packument:metro Completed in 99ms
+115 timing metavuln:load:security-advisory:metro:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 0ms
+116 timing metavuln:calculate:security-advisory:metro:Lzp2gLjbHE2k6Afby/iK9+2vqK9yx6bD5uDvmhvhwUrDD9ngmCwyjb/cwjA9pfaLTUGvHoJmJLR8O1LrAkeUcg== Completed in 100ms
+117 timing metavuln:cache:get:security-advisory:react-native-legacy-components:DxDpvsGDeJPXlXCrigU+2gXG+MRPWEATnYAQH/4SSXduF8AyQIWTBa58HT/apbJ+dnopQ2nHINYI0fG2SUZUmg== Completed in 1ms
+118 timing metavuln:load:security-advisory:react-native-legacy-components:lO3OcuKi8Hpc2AG292D9Omn0Dl+EpCcYzD+WKbqe5QlOTVDHlTR+/q1Oxj0/MYQtrSlBuhzmaL6JyeSqca7ULw== Completed in 0ms
+119 timing metavuln:calculate:security-advisory:react-native-legacy-components:lO3OcuKi8Hpc2AG292D9Omn0Dl+EpCcYzD+WKbqe5QlOTVDHlTR+/q1Oxj0/MYQtrSlBuhzmaL6JyeSqca7ULw== Completed in 1ms
+120 timing metavuln:cache:get:security-advisory:teaset:sE/kSAKzt4EGgoz32lx0cgNilG27d0F2M1e+03slIaoRtB/UvM3/RccuJeiNqtBCXEkS1ubKAbMFkvrpnsC6lQ== Completed in 4ms
+121 http fetch GET 304 https://registry.npmjs.org/teaset 331ms (from cache)
+122 timing metavuln:packument:teaset Completed in 331ms
+123 timing metavuln:load:security-advisory:teaset:s34CkW6Mi6OXQYCNh40HGX2dwWiegXEqcC8On86IsxlyjIJc9lkN8JHMCcoFtkbj69qyRkBH010ucr99qhpIIg== Completed in 0ms
+124 timing metavuln:calculate:security-advisory:teaset:s34CkW6Mi6OXQYCNh40HGX2dwWiegXEqcC8On86IsxlyjIJc9lkN8JHMCcoFtkbj69qyRkBH010ucr99qhpIIg== Completed in 331ms
+125 timing metavuln:cache:get:security-advisory:metro-config:6VxRMyM0DoF8dqXdNZyLlnREUpWFLjmH4OpV31JbDuGtYjfQZ2DY367+mtrNys4UdWYEFmrMFwCvlCsEwwlVJw== Completed in 7ms
+126 timing metavuln:cache:get:security-advisory:@react-native-community/cli:o1eienmF0b2OAZMo9eGpPIdynbF9TlIckQ5lCBbKgV4/BHf4A32w+rXZ0weR0XvLy+S2byjZrhJIGNlgj9VWKg== Completed in 6ms
+127 http fetch GET 304 https://registry.npmjs.org/metro-config 46ms (from cache)
+128 timing metavuln:packument:metro-config Completed in 48ms
+129 timing metavuln:load:security-advisory:metro-config:r9KRu3lhoBL27eGMogU/tmY1X2JNbY8R/nQqL7oB/BzEuDOZVyI0Uj5fsgw5s9xeVG0MiC6FTdxO77CAdI9RkA== Completed in 0ms
+130 timing metavuln:calculate:security-advisory:metro-config:r9KRu3lhoBL27eGMogU/tmY1X2JNbY8R/nQqL7oB/BzEuDOZVyI0Uj5fsgw5s9xeVG0MiC6FTdxO77CAdI9RkA== Completed in 48ms
+131 http fetch GET 304 https://registry.npmjs.org/@react-native-community%2fcli 554ms (from cache)
+132 timing metavuln:packument:@react-native-community/cli Completed in 556ms
+133 timing metavuln:load:security-advisory:@react-native-community/cli:r9KRu3lhoBL27eGMogU/tmY1X2JNbY8R/nQqL7oB/BzEuDOZVyI0Uj5fsgw5s9xeVG0MiC6FTdxO77CAdI9RkA== Completed in 3ms
+134 timing metavuln:calculate:security-advisory:@react-native-community/cli:r9KRu3lhoBL27eGMogU/tmY1X2JNbY8R/nQqL7oB/BzEuDOZVyI0Uj5fsgw5s9xeVG0MiC6FTdxO77CAdI9RkA== Completed in 559ms
+135 timing metavuln:cache:get:security-advisory:@react-native-community/cli:W8r9RImAFAFzCS7ewybDzfVj7uX/a2PxJh6DMSemMd6li/bxUbPFistThf+vxKrq+8XbEmHHQJFZtsBAb95/3w== Completed in 1ms
+136 timing metavuln:load:security-advisory:@react-native-community/cli:6VxRMyM0DoF8dqXdNZyLlnREUpWFLjmH4OpV31JbDuGtYjfQZ2DY367+mtrNys4UdWYEFmrMFwCvlCsEwwlVJw== Completed in 2ms
+137 timing metavuln:calculate:security-advisory:@react-native-community/cli:6VxRMyM0DoF8dqXdNZyLlnREUpWFLjmH4OpV31JbDuGtYjfQZ2DY367+mtrNys4UdWYEFmrMFwCvlCsEwwlVJw== Completed in 3ms
+138 timing metavuln:cache:get:security-advisory:metro:dgNBmTRJxuMGzgTTB+7f29cnMGNT29//X4mh4U5/y3eWMGK3RG4Lv+g2pmHTAP8NFA2RNAc5pwkn8EE/KnUCNA== Completed in 4ms
+139 timing metavuln:load:security-advisory:metro:6VxRMyM0DoF8dqXdNZyLlnREUpWFLjmH4OpV31JbDuGtYjfQZ2DY367+mtrNys4UdWYEFmrMFwCvlCsEwwlVJw== Completed in 1ms
+140 timing metavuln:calculate:security-advisory:metro:6VxRMyM0DoF8dqXdNZyLlnREUpWFLjmH4OpV31JbDuGtYjfQZ2DY367+mtrNys4UdWYEFmrMFwCvlCsEwwlVJw== Completed in 5ms
+141 timing metavuln:cache:get:security-advisory:react-native:XBvx48MOxcE8pR5aB9AgYQddjfrgOGLvEUD1J0AKNXDQMS+dgeIXcs/mmDq2LSCKAZbPOjVYo7g7J7fjwbusKA== Completed in 1ms
+142 timing metavuln:load:security-advisory:react-native:o1eienmF0b2OAZMo9eGpPIdynbF9TlIckQ5lCBbKgV4/BHf4A32w+rXZ0weR0XvLy+S2byjZrhJIGNlgj9VWKg== Completed in 4ms
+143 timing metavuln:calculate:security-advisory:react-native:o1eienmF0b2OAZMo9eGpPIdynbF9TlIckQ5lCBbKgV4/BHf4A32w+rXZ0weR0XvLy+S2byjZrhJIGNlgj9VWKg== Completed in 5ms
+144 timing auditReport:init Completed in 6462ms
+145 timing audit Completed in 8308ms
+146 timing idealTree:init Completed in 1ms
+147 timing idealTree:userRequests Completed in 0ms
+148 silly idealTree buildDeps
+149 silly fetch manifest react-native@^0.63.2
+150 silly fetch manifest react@16.9.0
+151 timing arborist:ctor Completed in 0ms
+152 http fetch GET 304 https://registry.npmjs.org/react 446ms (from cache)
+153 silly fetch manifest react@16.13.1
+154 timing idealTree Completed in 461ms
+155 timing command:audit Completed in 8771ms
+156 verbose stack Error: unable to resolve dependency tree
+156 verbose stack     at Arborist.[failPeerConflict] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1210:25)
+156 verbose stack     at Arborist.[loadPeerSet] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1187:34)
+156 verbose stack     at async Arborist.[buildDepStep] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:891:11)
+156 verbose stack     at async Arborist.buildIdealTree (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:217:7)
+156 verbose stack     at async Promise.all (index 1)
+156 verbose stack     at async Arborist.reify (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:134:5)
+156 verbose stack     at async Audit.audit (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\lib\audit.js:63:5)
+157 verbose cwd F:\Kominfo\SIHEBAT\pabriqkitha-kitha-android-ba11f1f49890
+158 verbose Windows_NT 10.0.19042
+159 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Zul Amri DN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "audit" "fix"
+160 verbose node v14.15.1
+161 verbose npm  v7.9.0
+162 error code ERESOLVE
+163 error ERESOLVE unable to resolve dependency tree
+164 error
+165 error While resolving: [1msingkawang[22m@[1m0.0.1[22m
+165 error Found: [1mreact[22m@[1m16.9.0[22m[2m[22m
+165 error [2mnode_modules/react[22m
+165 error   [1mreact[22m@"[1m16.9.0[22m" from the root project
+165 error
+165 error Could not resolve dependency:
+165 error [35mpeer[39m [1mreact[22m@"[1m16.13.1[22m" from [1mreact-native[22m@[1m0.63.4[22m[2m[22m
+165 error [2mnode_modules/react-native[22m
+165 error   [1mreact-native[22m@"[1m^0.63.2[22m" from the root project
+165 error
+165 error Fix the upstream dependency conflict, or retry
+165 error this command with --force, or --legacy-peer-deps
+165 error to accept an incorrect (and potentially broken) dependency resolution.
+165 error
+165 error See F:\Kominfo\SIHEBAT\pabriqkitha-kitha-android-ba11f1f49890\eresolve-report.txt for a full report.
+166 verbose exit 1

@@ -1,0 +1,82 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\Zul Amri DN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install'
+0 verbose cli ]
+1 info using npm@7.10.0
+2 info using node@v14.15.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:F:\Kominfo\SIHEBAT\pabriqkitha-kitha-android-ba11f1f49890\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\Zul Amri DN\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\Zul Amri DN\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 7ms
+18 timing npm:load:configload Completed in 7ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing npm:load:setupLog Completed in 1ms
+21 timing npm:load:cleanupLog Completed in 2ms
+22 timing npm:load:configScope Completed in 0ms
+23 timing npm:load:projectScope Completed in 1ms
+24 timing npm:load Completed in 13ms
+25 timing config:load:flatten Completed in 2ms
+26 timing arborist:ctor Completed in 1ms
+27 timing idealTree:init Completed in 548ms
+28 timing idealTree:userRequests Completed in 1ms
+29 silly idealTree buildDeps
+30 silly fetch manifest react-native-safe-area-view@^1.1.1
+31 http fetch GET 200 https://registry.npmjs.org/react-native-safe-area-view 174ms
+32 silly fetch manifest react@16.9.0
+33 http fetch GET 304 https://registry.npmjs.org/react 70ms (from cache)
+34 silly fetch manifest react-native@^0.64.0
+35 http fetch GET 304 https://registry.npmjs.org/react-native 44ms (from cache)
+36 timing idealTree Completed in 859ms
+37 timing command:install Completed in 883ms
+38 verbose stack Error: unable to resolve dependency tree
+38 verbose stack     at Arborist.[failPeerConflict] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1210:25)
+38 verbose stack     at Arborist.[loadPeerSet] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1203:30)
+38 verbose stack     at Arborist.[nodeFromEdge] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:986:30)
+38 verbose stack     at async Arborist.[loadPeerSet] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1174:23)
+38 verbose stack     at async Arborist.[buildDepStep] (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:891:11)
+38 verbose stack     at async Arborist.buildIdealTree (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:217:7)
+38 verbose stack     at async Promise.all (index 1)
+38 verbose stack     at async Arborist.reify (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:134:5)
+38 verbose stack     at async Install.install (C:\Users\Zul Amri DN\AppData\Roaming\npm\node_modules\npm\lib\install.js:137:5)
+39 verbose cwd F:\Kominfo\SIHEBAT\pabriqkitha-kitha-android-ba11f1f49890
+40 verbose Windows_NT 10.0.19042
+41 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Zul Amri DN\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+42 verbose node v14.15.1
+43 verbose npm  v7.10.0
+44 error code ERESOLVE
+45 error ERESOLVE unable to resolve dependency tree
+46 error
+47 error While resolving: [1msingkawang[22m@[1m0.0.1[22m
+47 error Found: [1mreact[22m@[1m16.9.0[22m[2m[22m
+47 error [2mnode_modules/react[22m
+47 error   [1mreact[22m@"[1m16.9.0[22m" from the root project
+47 error   [35mpeer[39m [1mreact[22m@"[1m*[22m" from [1mreact-native-safe-area-view[22m@[1m1.1.1[22m[2m[22m
+47 error   [2mnode_modules/react-native-safe-area-view[22m
+47 error     [1mreact-native-safe-area-view[22m@"[1m^1.1.1[22m" from the root project
+47 error
+47 error Could not resolve dependency:
+47 error [35mpeer[39m [1mreact[22m@"[1m17.0.1[22m" from [1mreact-native[22m@[1m0.64.0[22m[2m[22m
+47 error [2mnode_modules/react-native[22m
+47 error   [1mreact-native[22m@"[1m^0.64.0[22m" from the root project
+47 error   [35mpeer[39m [1mreact-native[22m@"[1m*[22m" from [1mreact-native-safe-area-view[22m@[1m1.1.1[22m[2m[22m
+47 error   [2mnode_modules/react-native-safe-area-view[22m
+47 error     [1mreact-native-safe-area-view[22m@"[1m^1.1.1[22m" from the root project
+47 error
+47 error Fix the upstream dependency conflict, or retry
+47 error this command with --force, or --legacy-peer-deps
+47 error to accept an incorrect (and potentially broken) dependency resolution.
+47 error
+47 error See F:\Kominfo\SIHEBAT\pabriqkitha-kitha-android-ba11f1f49890\eresolve-report.txt for a full report.
+48 verbose exit 1
