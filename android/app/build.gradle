@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.singkawang"
+        applicationId "com.singkawangkota"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 3
