@@ -1,4 +1,4 @@
-package com.singkawang;
+package com.singkawangkota;
 
 import android.app.Application;
 import android.content.Context;
